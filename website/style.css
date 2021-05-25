@@ -1,0 +1,190 @@
+body{
+	background-color:#e9ebee;
+	position:absolute;
+	margin:0px;
+	overflow:auto;
+}
+
+#top-menu-bg{
+	background-color:#fff;
+	height:55px;
+	width:100%;
+	position:fixed;
+	z-index:11;
+	
+}
+
+
+
+#btn{
+	background-color:blue;
+	color:white;
+	padding:2px 15px;
+}
+
+#btn:hover{
+	text-decoration:underline;
+	background-opacity:0.5;
+}
+#logo-img{
+	padding:10px 35px 10px 0px;
+	height:55px;
+}
+
+#row1:hover{
+	border-color:blue;
+}
+
+#t1{
+	margin-top:10px;
+	width:550px;
+	height:40px;
+}
+
+#i2{
+	height:20px;
+}
+
+#btn1{
+	margin-top:10px;
+}
+
+#p1{
+	margin-top:10px;
+	font-size:22px;
+	color:black;
+}
+
+#p1:hover{
+	color:green;
+}
+
+
+#text1{
+	color:black;
+	font-size:25px;
+	margin-bottom:20px;
+	margin-top:70px;
+	text-decoration:underline;
+}
+
+
+#row1{
+	background-color:white;
+	padding-left:5px;
+	margin-top:15px;
+	height:100%;
+	width:100%;
+	font-size:12px;
+	font-width:500px;
+}
+
+#img1{
+	height:90px;
+	margin-left:0px;
+}
+
+h2{font-size:17px;width:auto;color:#12a70c;margin:5px 5px 5px 0px;}b,strong{font-weight:500}div{display:block}
+
+div.float-right{
+	float:right;
+	width:100%;
+}
+
+.img-polaroid{
+	border:rounded;
+}
+
+.files-new ul li{
+	list-style-type:none;
+}
+
+.categories-list ul li{
+	list-style-type:none
+}
+
+#text2{
+	display-inline:block;
+}
+
+#i1{
+	padding-left:10px;
+}
+
+#h4{
+	text-decoration:underline;
+	margin-bottom:20px;
+	color:#12a70c;
+}
+
+
+
+#img2{
+	border-radius:50%;
+}
+
+
+
+
+
+.dialog{
+	position:relative;
+}
+
+#pragraph{
+	margin-bottom:25px;
+}
+
+
+#email-cats{
+	width:350px;
+	height:30px;
+	margin:20px;
+}
+
+#footer{
+	background-color:white;
+	margin:10px;
+	height:15%;
+	width:100%;
+}
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 350px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 0px;
+      background-color: #e9ebee;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: white;
+      color: white;
+      padding: 0px;
+	  margin:30px;
+	  
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width:767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+	
+	
+	
